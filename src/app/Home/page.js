@@ -1,31 +1,33 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { Box, Button, Typography, Grid } from '@mui/material';
+import React from "react";
+import { Box, Button, Typography, Grid } from "@mui/material";
+import ButtonComponent from "@/Components/Button/Button";
 
 const HomePage = () => {
   return (
     <Box
       sx={{
-        background: 'url(/slide.jpg)', 
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        color: 'white',
-        height: '100vh',
-        display: 'flex',
-        alignItems: 'center',
-        padding: '0 5%',
+        backgroundImage: "url(/slide.jpg)",
+        backgroundSize: "cover",
+        backgroundPosition: "right",
+        backgroundRepeat: "no-repeat",
+        color: "white",
+        height: "100vh",
+        display: "flex",
+        alignItems: "center",
+        padding: "0 3%",
       }}
     >
-      <Grid container alignItems="center" spacing={4}>
+      <Grid container alignItems="center">
         {/* Left Section */}
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} md={12}>
           <Typography
             variant="h6"
             sx={{
-              textTransform: 'uppercase',
-              letterSpacing: '2px',
-              fontWeight: 'bold',
+              textTransform: "uppercase",
+              letterSpacing: "2px",
+              fontWeight: "bold",
               marginBottom: 2,
             }}
           >
@@ -34,7 +36,7 @@ const HomePage = () => {
           <Typography
             variant="h3"
             sx={{
-              fontWeight: 'bold',
+              fontWeight: "bold",
               lineHeight: 1.2,
               marginBottom: 3,
             }}
@@ -45,7 +47,7 @@ const HomePage = () => {
             variant="body1"
             sx={{
               marginBottom: 4,
-              color: '#b0c4de',
+              color: "#b0c4de",
             }}
           >
             We are Leading Technology Solutions Providing Company all over the
@@ -53,27 +55,14 @@ const HomePage = () => {
           </Typography>
 
           {/* Buttons */}
-          <Box sx={{ display: 'flex', gap: 2 }}>
-            <Button
-              variant="contained"
-              color="primary"
-              sx={{
-                padding: '10px 20px',
-                fontWeight: 'bold',
-                borderRadius: '25px',
-                backgroundColor: '#0058A3',
-                '&:hover': {
-                  backgroundColor: '#003E7E',
-                },
-              }}
-            >
-              Discover More
-            </Button>
+          <Box sx={{ display: "flex", gap: 2 }}>
+            <ButtonComponent
+              label="Discover More"
+              variant="gradient" // Default variant
+              size="large"
+            />
           </Box>
         </Grid>
-
-        {/* Right Section */}
-        <Grid item xs={12} md={6}></Grid>
       </Grid>
     </Box>
   );
