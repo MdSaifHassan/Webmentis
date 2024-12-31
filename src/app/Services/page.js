@@ -7,7 +7,7 @@ export default function Services() {
   return (
     <Container maxWidth="lg" sx={{ py: 5 , "&:hover": {
       "& .zoom-image": {
-        transform: "scale(1.2)", 
+        transform: "scale(0.9)", 
       },
     },}}>
       <Typography

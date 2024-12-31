@@ -4,7 +4,7 @@ const navLinks = [
     { title: "About", path: "/about" },
     { title: "Services", path: "/Services" },
     { title: "Portfolios", path: "/portfolios" },
-    { title: "Contact Us", path: "/contact" },
+    { title: "Contact Us", path: "/contactus" },
   ];
   
   export default navLinks;
