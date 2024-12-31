@@ -69,6 +69,7 @@ import Box from '@mui/material/Box';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import navLinks from './NavLinks';
+import Image from 'next/image';
 
 const Header = () => {
   const router = useRouter();
@@ -86,13 +87,12 @@ const Header = () => {
             sx={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }}
             onClick={() => router.push('/')} // Redirect to home on logo click
           >
-            <img
-              src="/Aone-InfoSystem-Logo.png" // Replace with the actual path to your logo
+            <Image
+              src={"/Aone-InfoSystem-Logo.png"} // Replace with the actual path to your logo
               alt="Logo"
-              style={{
-                height: '40px', // Adjust the height as needed
-                width: 'auto', // Maintain aspect ratio
-              }}
+              width={90}
+              height={40}
+             
             />
           </Box>
 
