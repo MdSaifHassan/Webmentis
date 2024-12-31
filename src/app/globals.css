@@ -19,7 +19,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Livvic', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -40,3 +40,8 @@ a {
     color-scheme: dark;
   }
 }
+
+/* .css-6h9cc6-MuiInputBase-root-MuiInput-root::before,::after{
+  border: 0px !important;
+  
+} */
