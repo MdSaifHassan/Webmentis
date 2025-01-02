@@ -14,20 +14,35 @@ const InputField = ({
   ...props
 }) => {
   return (
+    // <TextField
+    //   label={label}
+    //   name={name}
+    //   value={value}
+    //   onChange={onChange}
+    //   type={type}
+    //   error={error}
+    //   helperText={helperText}
+    //   fullWidth={fullWidth}
+    //   variant={variant}
+    //   margin="normal"
+    //   sx={sx} 
+    //   {...props}
+    // />
     <TextField
-      label={label}
-      name={name}
-      value={value}
-      onChange={onChange}
-      type={type}
-      error={error}
-      helperText={helperText}
-      fullWidth={fullWidth}
-      variant={variant}
-      margin="normal"
-      sx={sx} // Apply the sx styles here
-      {...props}
-    />
+  label={label}
+  name={name}
+  value={value}
+  onChange={onChange}
+  type={type}
+  error={error}
+  helperText={helperText}
+  fullWidth={fullWidth}
+  variant={variant}
+  margin="normal"
+  sx={sx}
+  {...props}
+/>
+
   );
 };
 
