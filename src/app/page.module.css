@@ -13,8 +13,7 @@
   min-height: 100svh;
   padding: 80px;
   gap: 64px;
-  font-family: var(--font-geist-sans);
-}
+  font-family: 'Livvic', sans-serif;}
 
 @media (prefers-color-scheme: dark) {
   .page {
@@ -35,8 +34,8 @@
 }
 
 .main ol {
-  font-family: var(--font-geist-mono);
-  padding-left: 0;
+  font-family: 'Livvic', sans-serif; 
+   padding-left: 0;
   margin: 0;
   font-size: 14px;
   line-height: 24px;
@@ -49,7 +48,7 @@
 }
 
 .main code {
-  font-family: inherit;
+  font-family: 'Livvic', sans-serif; 
   background: var(--gray-alpha-100);
   padding: 2px 4px;
   border-radius: 4px;

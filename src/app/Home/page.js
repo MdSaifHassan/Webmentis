@@ -21,7 +21,7 @@ const HomePage = () => {
       }}
     >
       <Grid container alignItems="center" spacing={2}>
-        <Grid item xs={12} md={6} lg={5}>
+        <Grid item xs={12} md={6} lg={8}>
           <Typography
             variant="h6"
             sx={{

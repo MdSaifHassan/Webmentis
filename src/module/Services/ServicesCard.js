@@ -11,6 +11,7 @@ const ServiceCard = ({ image, title, description }) => {
         padding: "40px 30px 35px 30px",
         transition: "all 0.3s ease-out", 
         boxShadow: "none", 
+        background:"#EBEBEB",
         "&:hover": {
           boxShadow: 4, 
         },

@@ -34,7 +34,7 @@ export default function Services() {
             key={index}
             sx={{
               display: "flex", 
-              justifyContent: "center",  
+              justifyContent: "space-between",  
             }}
           >
             <ServiceCard

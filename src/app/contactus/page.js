@@ -33,7 +33,7 @@ const ConsultationPage = () => {
         backgroundColor: "#EBEBEB",
         display: "flex",
         alignItems: "center",
-        justifyContent: "center",
+        justifyContent: "space-between",
         padding: 0,
       }}
     >
@@ -42,7 +42,7 @@ const ConsultationPage = () => {
         xs={12}
         md={4}
         sx={{
-          background: "linear-gradient(250deg, #4E95ED 0%, #03228F 100%)",
+          background: "linear-gradient(250deg,rgb(7, 28, 189) 0%, #576BFC 100%)",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",

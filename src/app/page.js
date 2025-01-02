@@ -6,11 +6,13 @@ import Services from "./Services/page";
 import ConsultationPage from "./contactus/page";
 import Footer from "./footer/page";
 import ClientReview from "./clients/page";
+import Container from "@/Components/Container/Container";
 
 export default function Home() {
   return (
    <div>
     <Header />
+    <Container>
      <div style={{marginTop:'70px'}}>
         <HomePage />
         <Services />
@@ -18,6 +20,7 @@ export default function Home() {
         <ConsultationPage />
         <Footer />
       </div>
+      </Container>
    </div>
   );
 }
