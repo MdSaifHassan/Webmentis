@@ -1,12 +1,12 @@
 :root {
-  --background: #ffffff;
+  --background: #EBEBEB;
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #EBEBEB;
   }
 }
 
@@ -41,7 +41,3 @@ a {
   }
 }
 
-/* .css-6h9cc6-MuiInputBase-root-MuiInput-root::before,::after{
-  border: 0px !important;
-  
-} */

@@ -24,9 +24,10 @@ export default function ClientReview() {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        padding: 4,
         width: "100%",
+        height:"85vh",
         backgroundColor: "#576BFC",
+        borderRadius: 1,
       }}
     >
       <Grid
@@ -35,9 +36,9 @@ export default function ClientReview() {
         alignItems="center"
         justifyContent="center"
         sx={{
-          padding: isSmallScreen ? 2 : isMediumScreen ? 6 : 10,
+          padding: isSmallScreen ? 2 : isMediumScreen ? 0 : 0,
           borderRadius: 2,
-          backgroundColor: "#576BFC",
+          height:"100%"
         }}
       >
         {/* Left Side: Heading */}

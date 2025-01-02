@@ -1,20 +1,18 @@
-import { Box } from "@mui/material";
+"use client"
+import PropTypes from "prop-types";
+import styles from "./container.module.scss";
 
-export default function MyContainer({ children }) {
+const Container = ({ children, className }) => {
   return (
-    <Box
-      sx={{
-        width: '100%',
-        maxWidth: '100%',
-        padding: '0 10px',  
-        margin: '0 auto',  
-        boxSizing: 'border-box', 
-        '@media (max-width: 600px)': {
-          padding: '0 10px', 
-        },
-      }}
-    >
-      {children} 
-    </Box>
+    <div className={`${styles.container} ${className || ""}`}>
+      {children}
+    </div>
   );
-}
+};
+
+Container.propTypes = {
+  children: PropTypes.node.isRequired,
+  className: PropTypes.string,
+};
+
+export default Container;
