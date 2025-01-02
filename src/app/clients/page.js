@@ -11,7 +11,6 @@ import {
 } from "@mui/material";
 import Client from "@/module/ClientReview/clientreviewdata";
 import Image from "next/image";
-// Dummy data for demonstration
 
 export default function ClientReview() {
   const theme = useTheme();
