@@ -4,7 +4,7 @@ import React from 'react';
 import { Button } from '@mui/material';
 
 const ButtonComponent = ({
-  label = 'Click Me',
+  label = '',
   variant = 'contained',
   color = 'primary',
   size = 'medium', 
@@ -27,11 +27,9 @@ const ButtonComponent = ({
   }
   else if (variant === 'gradientTwo') {
     backgroundStyle = {
-      background: 'linear-gradient(45deg, #FF8C00, #FF0080)',
+      background: 'linear-gradient(90deg, #032491 0%, #910303 100%)',
       color: "#fff",
-      '&:hover': {
-        background: 'linear-gradient(45deg, #FF0080, #FF8C00)',
-      },
+      padding: "15px 5px",
     };
   }
   else if (variant === 'custom') {

@@ -20,6 +20,13 @@ const Header = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  const handleScrollPage = (path) => {
+    const element = document.querySelector(path);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   const toggleDrawer = (open) => () => {
     setDrawerOpen(open);
   };
@@ -38,6 +45,7 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  
   return (
     <>
       <AppBar
@@ -77,6 +85,7 @@ const Header = () => {
                 <Link
                   key={index}
                   href={link.path}
+                  onClick={() => handleScrollPage(link.path)}
                   style={{
                     textDecoration: 'none',
                     color: 'black',
