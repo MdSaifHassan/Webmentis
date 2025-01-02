@@ -1,11 +1,9 @@
-// src/data/navLinks.js
 const navLinks = [
-    { title: "Home", path: "/Home" },
-    { title: "About", path: "/about" },
-    { title: "Services", path: "/Services" },
-    { title: "Portfolios", path: "/portfolios" },
-    { title: "Contact Us", path: "/contactus" },
-  ];
-  
-  export default navLinks;
-  
+  { title: "Home", path: "#home" },
+  { title: "About", path: "#about" },  // Add About section ID if needed
+  { title: "Services", path: "#services" },
+  { title: "Portfolios", path: "#clients" },  // Add Portfolios section ID if needed
+  { title: "Contact Us", path: "#contact" },
+];
+
+export default navLinks;
