@@ -33,7 +33,7 @@ const ConsultationPage = () => {
         backgroundColor: "#EBEBEB",
         display: "flex",
         alignItems: "center",
-        justifyContent: "space-between",
+        justifyContent: "center",
         padding: 0,
       }}
     >

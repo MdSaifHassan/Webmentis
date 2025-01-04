@@ -7,9 +7,11 @@ const technologiesData = [
     { name: "Flutter", img1: "flutter.png", img2: "flutter.png" },
     { name: "PHP", img1: "php.png", img2: "php.png" },
     { name: "Firebase", img1: "firebase.png", img2: "firebase.png" },
+    
   ];
   
   export default technologiesData;
   
 
   
+
