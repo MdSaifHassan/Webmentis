@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { Box, Grid } from '@mui/material';
+import { Box, colors, Grid } from '@mui/material';
 import technologiesData from '@/module/Technology/technologiesData'; // Import technology data
 import textContent from '@/module/Technology/textContent'; // Import text content data
 import TypographyComponent from '@/Components/Typography/Typography'; // Import reusable Typography component
@@ -140,7 +140,7 @@ const TechnologyPage = () => {
               sx={{
                 fontWeight: 'bold',
                 textTransform: 'uppercase',
-                marginTop: { xs: 1, sm: 2 }, // Responsive margin
+                marginTop: { xs: 1, sm: 2 }, 
               }}
             />
           </Grid>

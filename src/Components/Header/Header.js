@@ -47,7 +47,7 @@ const Header = () => {
 
   
   return (
-    <>
+    <div>
       <AppBar
         position="fixed"
         color="transparent"
@@ -56,7 +56,7 @@ const Header = () => {
           transition: 'box-shadow 0.3s ease-in-out',
         }}
       >
-        <Box sx={{ padding: '0 24px', background: '#EBEBEB', padding: '10px 0px' }}>
+        <Box sx={{ padding: '0 24px', background: '#EBEBEB', padding: '10px 2rem' }}>
           <Toolbar
             sx={{
               justifyContent: 'space-between',
@@ -133,7 +133,7 @@ const Header = () => {
           </List>
         </Box>
       </Drawer>
-    </>
+    </div>
   );
 };
 
