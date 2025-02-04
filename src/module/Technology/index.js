@@ -1,15 +1,15 @@
 'use client';
 import React from 'react';
 import { Box, colors, Grid } from '@mui/material';
-import technologiesData from '@/module/Technology/technologiesData'; // Import technology data
-import textContent from '@/module/Technology/textContent'; // Import text content data
-import TypographyComponent from '@/Components/Typography/Typography'; // Import reusable Typography component
+import technologiesData from '@/module/Technology/technologiesData'; 
+import textContent from '@/module/Technology/textContent'; 
+import TypographyComponent from '@/Components/Typography/Typography'; 
 
 const TechnologyPage = () => {
   return (
     <Box
       sx={{
-        padding: { xs: '2rem', sm: '3rem', md: '5rem 6rem' }, // Responsive padding
+        padding: { xs: '2rem', sm: '3rem', md: '5rem 6rem' }, 
         backgroundImage: `url(bg.jpg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -41,7 +41,7 @@ const TechnologyPage = () => {
                 sx={{
                   position: 'relative',
                   width: '100%',
-                  height: 150,
+                  height: {xs: "100px", md: "150px"},
                   overflow: 'hidden',
                   borderRadius: '3px',
                   border: '1px solid rgba(255, 255, 255, 0.3)',

@@ -27,10 +27,9 @@ const ConsultationPage = () => {
   };
 
   return (
-    <Grid
+    <Grid id="contact"
       container
       sx={{
-        backgroundColor: "#EBEBEB",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",

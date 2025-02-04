@@ -1,9 +1,10 @@
 const navLinks = [
   { title: "Home", path: "#home" },
-  { title: "About", path: "#about" },  // Add About section ID if needed
-  { title: "Services", path: "#services" },
-  { title: "Portfolios", path: "#clients" },  // Add Portfolios section ID if needed
-  { title: "Contact Us", path: "#contact" },
+  { title: "Full-Stack Development", path: "/fullstack" },
+  { title: "Mobile Development", path: "/mobile" },
+  { title: "Software Solutions", path: "/software" },
+  { title: "Graphic Design", path: "/graphic" },
+  { title: "Branding", path: "/branding" },
 ];
 
 export default navLinks;
