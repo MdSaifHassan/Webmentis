@@ -45,7 +45,7 @@ const textContent = {
         variant: 'h4',
         text: 'Book a free Consultation',
         sx: { fontWeight: 'bold' },
-        // color: '',
+        color: '#1273EB',
       },
     },
   };

@@ -18,14 +18,13 @@ export default function ClientReview() {
   const isMediumScreen = useMediaQuery(theme.breakpoints.down("md")); 
 
   return (
-    <Box
+    <Box id="clients"
       sx={{
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
         width: "100%",
         height: "85vh",
-        backgroundColor: "#EBEBEB",
         borderRadius: 1,
         overflow: "hidden",
       }}
